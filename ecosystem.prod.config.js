@@ -18,7 +18,7 @@ module.exports = {
             name: 'backend-api',
             script: 'dist/main.js',
             watch: true,
-            instances: 'max',
+            instances: 4,
             exec_mode: 'cluster',
             env: {
                 NODE_ENV: 'production',
